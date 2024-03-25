@@ -171,3 +171,13 @@ nav {
     margin-right: 2em;
     border-radius: 1em;
   }
+  
+  footer{
+    height: 26vh;
+    margin: 0 1rem;
+}
+
+footer p{
+    text-align: center;
+}
+
