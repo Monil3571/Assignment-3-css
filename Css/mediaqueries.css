@@ -1,0 +1,22 @@
+@media screen and (max-width: 600px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        font-size: 0.7em;
+        margin: 1vw 0;
+
+    }
+    .top-banner{
+        font-size: 1.2em;
+        height: 20vh;
+    }
+    img{
+        max-height: 30vh;
+        margin: auto;
+    }
+    body{
+        /* background-color: aqua; */
+    }
+}
