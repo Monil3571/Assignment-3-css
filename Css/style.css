@@ -1,0 +1,144 @@
+@font-face {
+  font-family: nav-font;
+  src: url(../assests/font/goodbye-my-lover-font/GoodbyeMyLover-Y092.ttf);
+}
+@font-face {
+  font-family: banner-font;
+  src: url(../assests/font/serious-man-font/SeriousMan-zgDG.ttf);
+}
+@font-face {
+  font-family: body-font;
+  src: url(../assests/font/romantic-story-font/RomanticStory-MVxBB.otf);
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+h1{
+  padding: 0.4em;
+}
+header{
+  width: 100%;
+
+}
+nav {
+    width: 90vw;
+    background-color: #8B4513; /* Dark brown */
+    background-size: cover;
+    margin: 1em 4em;
+    padding: 10px 0;
+    border-radius: 2em;
+    font-family: nav-font;
+    letter-spacing: 0.15em;
+    position: fixed;
+  }
+  .nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #FFF; /* White */
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: all 0.1s ease;
+  }
+  
+  .nav-links li a:hover {
+    background-color: #CD853F; /* Peru */
+    border-radius: 30%;
+    padding: 1.2em 1.2em;
+  }
+
+  .top-banner{
+    height: 40vh;
+    text-align: center;
+    font-family: banner-font;
+    font-size: 4em;
+    /* font-weight: bold; */
+    letter-spacing: 0.5em;
+    padding-top: 30vh;
+    background-color: rgb(213, 109, 44);
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+  }
+  article{
+    font-family: body-font;
+  }
+  .Introduction{
+    text-wrap: wrap;
+    margin: 4em 2em;
+    /* margin-left:  10em; */
+    width: 60vw;
+    font-size: 2em;
+  }
+  .intro-pic{
+    float:left ;
+    height: 50vh;  
+    margin-right: 2em;
+  }
+  
+  .bridge-img{
+    width: 100%;
+    /* height: 60vh; */
+  } 
+  .Appearence{
+    text-wrap: wrap;
+    margin: 2em 1em;
+    /* text-align: center; */
+    width: 60vw;
+    
+    font-size: 2.2em;
+    /* padding: 0.4em; */
+    
+  }
+  .appearence-pic{
+    float: right;
+    height: 50vh;
+    margin-left: 2em;
+    border-radius: 2em;
+  }
+  
+  .Varieties{
+    text-wrap: wrap;
+    margin: 2em 1em;
+    font-size: 2em;
+    width: 60vw;
+  }
+  .varieties-pic{
+    float:left ;
+    height: 50vh;  
+    margin-right: 2em;
+  }
+  .Iconic-traditions{
+    text-wrap: wrap;
+    margin: 2em 1em;
+    width: 60vw;
+    /* text-align: center; */
+    font-size: 2.2em;
+    /* padding: 0.4em; */
+    
+  }
+  .Iconic{
+    float: right;
+    height: 50vh;
+    margin-left: 2em;
+    border-radius: 2em;
+  }
+   
